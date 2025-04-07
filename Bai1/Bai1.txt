@@ -1,0 +1,4 @@
+Bài 1: Chạy một container đơn giản với Docker Compose		
+	Yêu cầu:	
+	Tạo một container chạy Nginx bằng Docker Compose.	
+	Map cổng 8080 của máy host với cổng 80 của container.	

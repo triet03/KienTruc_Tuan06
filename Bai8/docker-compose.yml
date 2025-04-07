@@ -1,0 +1,26 @@
+
+services:
+  node:
+    build: .
+    container_name: node-container
+    ports:
+      - "3001:3000"
+    depends_on:
+      - mysql
+    networks:
+      - node-mysql-network
+
+  mysql:
+    image: mysql:8.0
+    container_name: mysql-containerR
+    environment:
+      MYSQL_ROOT_PASSWORD: root123
+      MYSQL_DATABASE: testdb
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    networks:
+      - node-mysql-network
+    restart: always
+
+networks:
+  node-mysql-network:

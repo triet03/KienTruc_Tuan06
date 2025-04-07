@@ -1,0 +1,5 @@
+Bài 11: Chạy dịch vụ Postgres với Adminer		
+	Yêu cầu:	
+	Chạy PostgreSQL và Adminer (công cụ quản lý database) bằng Docker Compose.	
+	PostgreSQL phải có database tên mydb, user là user, password là password.	
+	Adminer chạy trên cổng 8083	

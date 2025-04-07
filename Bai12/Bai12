@@ -1,0 +1,4 @@
+Bài 12: Giám sát container với Prometheus và Grafana		
+	Yêu cầu:	
+	Chạy Prometheus, Grafana và Node Exporter bằng Docker Compose để giám sát hệ thống.	
+		

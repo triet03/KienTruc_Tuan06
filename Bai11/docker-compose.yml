@@ -1,0 +1,27 @@
+
+services:
+  postgres:
+    image: postgres:14
+    container_name: postgres-container
+    environment:
+      POSTGRES_DB: mydb
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - pg-network
+
+  adminer:
+    image: adminer
+    container_name: adminer-container
+    ports:
+      - "8083:8080"
+    networks:
+      - pg-network
+
+volumes:
+  pgdata:
+
+networks:
+  pg-network:

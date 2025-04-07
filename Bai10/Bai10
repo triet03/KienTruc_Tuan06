@@ -1,0 +1,4 @@
+		
+Bài 10: Lưu trữ dữ liệu với Docker Volumes		
+	Yêu cầu:	
+	Chạy MySQL và gắn volume để dữ liệu không bị mất.	

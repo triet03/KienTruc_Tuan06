@@ -1,0 +1,3 @@
+Bài 5: Chạy Redis với Docker Compose		
+	Yêu cầu:	
+	Chạy một container Redis trên cổng 6379.	

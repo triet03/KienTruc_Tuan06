@@ -1,0 +1,3 @@
+Bài 8: Kết nối nhiều dịch vụ với Docker Compose		
+	Yêu cầu:	
+	Chạy Node.js kết nối với MySQL.	

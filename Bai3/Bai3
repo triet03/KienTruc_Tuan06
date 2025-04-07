@@ -1,0 +1,4 @@
+Bài 3: Kết nối MySQL với PHPMyAdmin		
+	Yêu cầu:	
+	Chạy MySQL và PHPMyAdmin với Docker Compose.	
+	PHPMyAdmin chạy trên cổng 8081.	
