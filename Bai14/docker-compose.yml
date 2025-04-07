@@ -1,0 +1,21 @@
+
+services:
+  app1:
+    build:
+      context: ./app1
+    container_name: app1-container
+    networks:
+      - app-network
+    depends_on:
+      - app2
+
+  app2:
+    build:
+      context: ./app2
+    container_name: app2-container
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

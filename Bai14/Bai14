@@ -1,0 +1,3 @@
+Bài 14: Cấu hình mạng riêng giữa các container		
+	Yêu cầu:	
+	Chạy 2 container có thể giao tiếp với nhau trong một mạng riêng.	

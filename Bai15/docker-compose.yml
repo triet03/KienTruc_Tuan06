@@ -1,0 +1,15 @@
+
+services:
+  redis:
+    image: redis:latest
+    container_name: redis-container2
+    ports:
+      - "7777:7777"
+    deploy:
+      resources:
+        limits:
+          memory: 500M       # Giới hạn RAM tối đa là 500MB
+          cpus: "0.5"        # Giới hạn sử dụng CPU tối đa là 50% của 1 CPU
+        reservations:
+          memory: 200M       # Đảm bảo ít nhất 200MB RAM sẽ được cấp phát cho container
+          cpus: "0.25"       # Đảm bảo ít nhất 25% CPU sẽ được cấp phát cho container

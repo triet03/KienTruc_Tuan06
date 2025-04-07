@@ -1,0 +1,3 @@
+Bài 15: Giới hạn tài nguyên cho container		
+	Yêu cầu:	
+	Giới hạn CPU và RAM cho một container Redis.	
